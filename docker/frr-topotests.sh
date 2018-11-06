@@ -143,7 +143,7 @@ set -- --rm -ti \
 	-e "TOPOTEST_SANITIZER=$TOPOTEST_SANITIZER" \
 	--privileged \
 	$TOPOTEST_OPTIONS \
-	frrouting/topotests "$@"
+	cfra/topotests "$@"
 
 if [ -n "TOPOTEST_PATH" ]; then
 	set -- -v "$TOPOTEST_PATH:/root/topotests:ro" "$@"
