@@ -8,7 +8,7 @@ from this repository:
 
 ```console
 wget -O /usr/local/bin/frr-topotests \
-    https://raw.githubusercontent.com/frrouting/topotests/master/docker/frr-topotests.sh
+    https://raw.githubusercontent.com/cfra/topotests/docker/docker/frr-topotests.sh
 chmod +x /usr/local/bin/frr-topotests
 ```
 
